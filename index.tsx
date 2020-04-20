@@ -3,6 +3,8 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 
+import {SignUp } from './SignUp';
+
 interface AppProps { }
 interface AppState {
   name: string;
@@ -19,7 +21,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        AAAA
+        <SignUp />
       </div>
     );
   }
